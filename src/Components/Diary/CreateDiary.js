@@ -46,7 +46,8 @@ function CreateDiary() {
     form.append("note", note);
     form.append("photo", avatar);
 
-    const url = `http://127.0.0.1:1110/api/user/${userId}/diary/photo`;
+    const url = `https://saveet-backend.herokuapp.com/api/user/${userId}/diary/photo`;
+    const url2 = `http://127.0.0.1:1110/api/user/${userId}/diary/photo`;
 
     const config = {
       headers: {

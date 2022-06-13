@@ -46,7 +46,8 @@ function SignUp() {
     form.append("password", password);
     form.append("avatar", avatar);
 
-    const url = "http://127.0.0.1:1110/api/user";
+    const url = `https://saveet-backend.herokuapp.com/api/user`;
+    const url2 = "http://127.0.0.1:1110/api/user";
 
     const config = {
       headers: {
